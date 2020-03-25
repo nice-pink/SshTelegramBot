@@ -14,7 +14,7 @@ Go to base folder of this project (SshTelegramBot).
 pip3 install requirements.txt
 ```
 
-## Go
+## Execute
 
 Run script as module from the base path of this project. Before you need to add a config.json (see Telegram section).
 

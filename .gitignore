@@ -1,0 +1,10 @@
+## Python
+__pycache__
+*/__pycache__
+
+## VS Code
+.vscode
+
+## config
+*/config.json
+config.json

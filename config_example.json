@@ -1,0 +1,12 @@
+{
+    "common": {
+        "name": "IpBot"
+    },
+    "telepot": {
+        "token": "TOKEN:TOKEN",
+        "chat_id_whitelist": [
+            111111111,
+            222222222
+        ]
+    }
+}

@@ -61,7 +61,7 @@ class TeleCommander:
         # Open tunnel
         # command = 'ssh -R ' + port + ' ' + address
         # os.system(command)
-        commands = ['ssh', '-R', port, address]
+        commands = ['ssh', '-oStrictHostKeyChecking=no', '-R', port, address]
         self.tunnel_process = subprocess.Popen(commands, shell=False)
         
         return 'Come in...', None

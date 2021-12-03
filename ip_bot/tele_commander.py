@@ -1,6 +1,4 @@
 import subprocess
-import os
-import telepot
 import requests
 
 class TeleCommander:

@@ -23,7 +23,7 @@ class TelepotClient:
             config = json_client.get('telepot', json_obj)
             self.TOKEN = json_client.get('token', config)
             self.CHAT_ID_WHITELIST = []
-            self.CHAT_ID_WHITELIST = json_client.get('chat_id_whitelist', config)
+            self.CHAT_ID_WHITELIST = json_client.get('user_id_whitelist', config)
         except Exception as exception:
             print('Json exception (telepot client)', str(exception))
             return False
